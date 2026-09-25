@@ -1,0 +1,16 @@
+[features]
+multi_agent = true
+
+[agents]
+enabled = true
+default_subagent_model = "gpt-5.5"
+default_subagent_reasoning_effort = "medium"
+max_concurrent_threads_per_session = 2
+
+[agents.planner]
+description = "规划拆解 Agent：负责澄清目标、拆任务、列字段、定义验收标准，不直接产出最终文件。"
+config_file = "agents/planner.toml"
+
+[agents.executor]
+description = "执行产出 Agent：负责根据规划创建文件、整理模板、运行检查，并返回可提交成果。"
+config_file = "agents/executor.toml"

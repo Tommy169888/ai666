@@ -1,0 +1,20 @@
+# Local/private material
+.env
+.env.*
+*.local
+
+# Sensitive source files and exports
+private/
+secrets/
+raw_certificates/
+
+# Generated files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Office lock files
+~$*.docx
+~$*.xlsx
+~$*.pptx

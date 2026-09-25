@@ -1,0 +1,3 @@
+asset_id,asset_type,location,land_area,building_area,property_nature,certificate_status,planning_or_use,access_and_utilities,current_status,asking_price,currency,transaction_method,source_material,verification_status,notes
+LAND-001,土地,占位示例，数据待核,占位示例，数据待核,,占位示例，数据待核,占位示例，数据待核,占位示例，数据待核,占位示例，数据待核,,占位示例，数据待核,USD,占位示例，数据待核,待提供,待核,土地类示例行，正式使用前需人工核验
+PROP-001,物业,占位示例，数据待核,,占位示例，数据待核,占位示例，数据待核,占位示例，数据待核,占位示例，数据待核,,占位示例，数据待核,占位示例，数据待核,USD,占位示例，数据待核,待提供,待核,物业类示例行，正式使用前需人工核验
